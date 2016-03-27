@@ -1,0 +1,45 @@
+html, body{
+  height: 100%;
+  padding: 0;
+  }
+.container{
+  height: 100%;
+}
+.header{
+  font-family: 'Roboto', sans-serif;
+  font-size:20;
+  color: white;
+  text-shadow: #FF4500 0 -2px;
+  background-color: #663399;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  top:0;
+}
+.footer{
+  background-color: #F5F5F5;
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 10%;
+  top:90%;
+}
+.main{
+  background-color: gray;
+  position: absolute;
+  left: 20%;
+  height: 80%;
+  width: 80%;
+  top: 10%;
+  bottom: 10%;
+}
+.side{
+  background-color: orange;
+  position: absolute;
+  left: 0;
+  height: 80%;
+  width: 20%;
+  top: 10%;
+  bottom: 10%;
+}
